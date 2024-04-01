@@ -71,14 +71,14 @@ main {
   background-color: black;
 }
 
-.red {
+.circle.red {
   background-color: red;
 }
 
-.green {
+.circle.green {
   background-color: #2ad111;
 }
 
-.yellow {
+.circle.yellow {
   background-color: yellow;
 }
