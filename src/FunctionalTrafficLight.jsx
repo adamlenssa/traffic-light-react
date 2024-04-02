@@ -18,6 +18,7 @@ export const FunctionalTrafficLight = () => {
               backgroundColor:
                 color === currentColor && trafficColors[color].backgroundColor,
             }}
+            key={color}
           ></div>
         ))}
       </div>

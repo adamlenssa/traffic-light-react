@@ -22,6 +22,7 @@ export class ClassTrafficLight extends Component {
                   color === this.state.currentColor &&
                   trafficColors[color].backgroundColor,
               }}
+              key={color}
             ></div>
           ))}
         </div>
